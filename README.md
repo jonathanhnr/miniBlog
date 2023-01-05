@@ -1,8 +1,21 @@
+# project images
+
+![Overview](./assets/about.png)
+![Overview](./assets/createPost.png)
+![Overview](./assets/dashboard.png)
+![Overview](./assets/editPost.png)
+![Overview](./assets/login.png)
+![Overview](./assets/navbar.png)
+![Overview](./assets/post.png)
+![Overview](./assets/register.png)
+![Overview](./assets/search.png)
+![Overview](./assets/verifyPassword.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
+
 
 In the project directory, you can run:
 

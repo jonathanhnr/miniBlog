@@ -33,19 +33,19 @@ const Dashboard = () => {
     return (
         <div className={styles.dashboard}>
             <h2>dashboard</h2>
-            <p>Gerencie seus posts</p>
+            <p>Gerencie seus posts!</p>
             {posts && posts.length === 0 ? (
                 <div className={styles.noposts}>
-                    <p>Nao foram encontrados posts</p>
+                    <p>Não foram encontrados posts!</p>
                     <Link to="/posts/create" className="btn">
-                        criar primeiro post
+                        Criar primeiro post
                     </Link>
                 </div>
             ) : (
                 <>
                     <div className={styles.post_header}>
-                        <span>titulo</span>
-                        <span>acoes</span>
+                        <span>Titulo</span>
+                        <span>Ações</span>
                     </div>
                     {posts && posts.map((post) => (
                         <div key={post.id} className={styles.post_row}>
